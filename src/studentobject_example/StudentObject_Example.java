@@ -32,11 +32,11 @@ public class StudentObject_Example {
             studentArr[i] = new Student(name, id);
         }*/
         Student s1 = new Student();
-        s1.setName("bob");
+        s1.setName("Bob");
         Student s2 = new Student();
-        s2.setName("cob");
+        s2.setName("Cob");
         Student s3 = new Student();
-        s3.setName("rob");
+        s3.setName("Rob");
         
         Student[] sList = new Student[3];//student array
         sList[0] = s1;
