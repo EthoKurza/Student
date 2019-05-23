@@ -50,7 +50,7 @@ public class StudentObject_Example {
         for(int i=0;i<sList.length;i++){
             System.out.println("Name: "+sList[i].getName()+"\nStudent ID: "+ sList[i].getID());
         }
-        
+        System.out.println("Fetch Example");
     }//end of main
     
 }//end of class
