@@ -13,14 +13,17 @@ public class Student {
 
     private String name;
     private int id;
+    private int maxcourse;
     
     Student(){
         this.name=" ";
         this.id=0;
+        this.maxcourse = 0;
     }
-    Student(String n,int id){
+    Student(String n,int id, int mcourse){
         this.name = n;
         this.id = id;
+        this.maxcourse = mcourse;
     }
     
     // Set or Get Name
@@ -36,6 +39,20 @@ public class Student {
     }
     public void setID(int id){
         this.id = id;
+    }
+
+    /**
+     * @return the maxcourse
+     */
+    public int getMaxcourse() {
+        return maxcourse;
+    }
+
+    /**
+     * @param maxcourse the maxcourse to set
+     */
+    public void setMaxcourse(int maxcourse) {
+        this.maxcourse = maxcourse;
     }
     
 }
